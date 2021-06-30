@@ -1,0 +1,99 @@
+body {
+  background-image: linear-gradient(to right, #a077a2, #9186bf);
+}
+
+.img-circle {
+  width: 125px;
+  border-radius: 25px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card-white {
+  margin: 30px;
+  padding: 30px;
+  background-color: #f0f0f0;
+  border-radius: 9px;
+}
+
+.shadowed {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.btn-purple {
+  background-color: #a077a2;
+  color: #f0f0f0;
+  padding: 10px 24px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 30px;
+}
+
+h1 {
+  color: #25333b;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  color: #25333b;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+}
+
+p {
+  color: #25333b;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #9186bf;
+  font-family: 'Didact Gothic', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F67280;
+  transition: 0.5s;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline i {
+  font-size: 32px;
+  padding: 8px;
+  color: #a077a2;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
