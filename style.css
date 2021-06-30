@@ -31,6 +31,7 @@ body {
 .container {
   width: 800px;
   margin: 0 auto;
+  transform:translate(-50%, -50%);
 }
 
 .card-white {
